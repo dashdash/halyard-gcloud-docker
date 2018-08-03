@@ -1,8 +1,8 @@
-FROM gcr.io/spinnaker-marketplace/halyard:1.2.0
+FROM gcr.io/spinnaker-marketplace/halyard:1.5.0
 
 USER root
 
-ENV CLOUD_SDK_VERSION 202.0.0
+ENV CLOUD_SDK_VERSION 210.0.0
 
 RUN apt-get -qqy update && apt-get install -qqy \
         apt-transport-https \
