@@ -1,4 +1,4 @@
-FROM gcr.io/spinnaker-marketplace/halyard:1.29.0
+FROM gcr.io/spinnaker-marketplace/halyard:1.29.0-ubuntu
 
 USER root
 
